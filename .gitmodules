@@ -1,3 +1,3 @@
 [submodule "linux"]
 	path = linux
-	url = http://git.kernel.org/pub/scm/virt/kvm/kvm.git
+	url = https://github.com/pfohjo/nitro-ng_kmod.git
