@@ -8,8 +8,9 @@ $ make oldconfig
 $ make prepare
 $ make modules_prepare
 $ cd ../
-$ ./configure --kerneldir=./linux --force
+$ ./configure --force --kerneldir=./linux
 $ make sync
+$ ./configure --force
 $ make
 
 This will generate x86/kvm-intel.ko and x86/kvm.ko.
