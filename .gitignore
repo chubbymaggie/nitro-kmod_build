@@ -48,4 +48,5 @@ x86/mmutrace.h
 x86/async_pf.[ch]
 x86/pmu.c
 x86/cpuid.[ch]
+x86/irqchip.c
 .stgit-*
