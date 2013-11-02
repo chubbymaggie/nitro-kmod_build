@@ -19,3 +19,6 @@ Details
 
 This is simply a fork of Jan Kiszka's repo for building external KVM modules and allows you build the nitro-ng modules without having to compile the entire kernel.  This will compile the kernel modules against the latest nitro-ng_kmod master, so the modules are not guarenteed to work on older kernels.
 
+Upstream git
+-------------------------------
+git://git.kiszka.org/kvm-kmod.git
