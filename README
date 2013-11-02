@@ -3,14 +3,8 @@ nitro-ng_kmod_build Quickstart
 
 $ git submodule init
 $ git submodule update
-$ cd linux
-$ make oldconfig
-$ make prepare
-$ make modules_prepare
-$ cd ../
-$ ./configure --force --kerneldir=./linux
+$ ./configure [--force]
 $ make sync
-$ ./configure --force
 $ make
 
 This will generate x86/kvm-intel.ko and x86/kvm.ko.
@@ -20,6 +14,6 @@ Details
 
 This is simply a fork of Jan Kiszka's repo for building external KVM modules and allows you build the nitro-ng modules without having to compile the entire kernel.
 
-Upstream git
+Upstream Repo
 -------------------------------
 git://git.kiszka.org/kvm-kmod.git
